@@ -10,6 +10,11 @@ return {
     -- "ibhagwan/fzf-lua",              -- optional
     -- "echasnovski/mini.pick",         -- optional
   },
-  config = true
+  config = true,
+  keys = {{
+      "<leader>gg",
+      function() require("neogit").open() end,
+      desc = "Open Neogit (magit clone)",
+    }}
 }
 }
