@@ -2,7 +2,8 @@ return {
   "stevearc/conform.nvim",
   opts = {
     formatters_by_ft = {
-      haskell = { "ormolu" }
-    }
-  }
+      lua = { "stylua", lsp_format = "prefer" },
+      haskell = { "ormolu", lsp_format = "fallback" },
+    },
+  },
 }
