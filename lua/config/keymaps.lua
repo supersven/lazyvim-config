@@ -3,7 +3,7 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>bs", ":w<cr>", { desc = "Save buffer" })
-vim.keymap.set("n", "<leader>op", ":Neotree<cr>", { desc = "Open Neotree" })
+vim.keymap.set("n", "<leader>op", ":Neotree toggle<cr>", { desc = "Toggle Neotree" })
 vim.keymap.set("n", "<leader>pp", ":NeovimProjectDiscover<cr>", { desc = "Change project" })
 vim.keymap.set("n", "<leader>bk", ":q<cr>", { desc = "Kill buffer" })
 vim.keymap.set("n", "<leader>cx", ":lua vim.diagnostic.setloclist()<cr>", { desc = "Show LSP diagnostics" })
