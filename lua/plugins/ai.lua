@@ -13,5 +13,12 @@ return { {
     "nvim-lua/plenary.nvim",
     "nvim-treesitter/nvim-treesitter",
   },
+}, {
+  "folke/sidekick.nvim",
+  opts = {
+    nes = {
+      enabled = false,
+    },
+  },
 },
 }
